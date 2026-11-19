@@ -1,0 +1,105 @@
+@font-face{font-family:Figtree;src:url('assets/Figtree-variable.ttf') format('truetype');font-weight:300 900;font-display:swap}
+*{box-sizing:border-box}body{margin:0;background:#fff;color:#101010;font-family:Figtree,Arial,sans-serif;font-size:16px}button,input,textarea{font:inherit;color:inherit}button{cursor:pointer;border:0;background:#d3dfe1;border-radius:12px;font-weight:650;padding:12px 20px;min-height:44px}button:hover{background:#c0d2d5}button:focus-visible,input:focus-visible,textarea:focus-visible,a:focus-visible{outline:3px solid #205d64;outline-offset:3px}button:disabled{opacity:.5;cursor:not-allowed}#activity{width:1000px;height:750px;position:relative;overflow:hidden;background:#d3dfe1 url('assets/background.png') no-repeat 0 0;background-size:1000px 750px;}header{position:absolute;left:25px;right:25px;top:43px;height:60px;border-radius:12px;background:rgba(255,255,255,.95);display:flex;align-items:center;justify-content:space-between;padding:0 21px;gap:20px}h1{font-size:20px;font-weight:650;margin:0}#slide-title{white-space:nowrap;font-size:16px}#screen{position:absolute;inset:0;pointer-events:none}#screen>*{pointer-events:auto}.panel{position:absolute;left:25px;top:121px;width:950px;height:590px;background:rgba(255,255,255,.94);border-radius:12px;box-shadow:0 3px 4px #0003;padding:33px 39px 80px;display:flex;flex-direction:column}.intro-panel{left:257px;top:224px;width:520px;height:320px;padding:49px 57px 36px;display:block}.intro-panel p{margin:0 0 20px;line-height:1.28}.intro-panel .wide{display:block;width:248px;margin:34px auto 0}.city-panel{height:320px;padding:48px 44px 36px}.city-panel p{margin:0 12px 40px}.city-name{background:#eaeaea;border-radius:12px;min-height:70px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:42px;font-weight:650;line-height:1.1;text-align:center;padding:8px}.city-name small{font-size:14px;font-weight:400;margin-top:5px}.city-panel .wide{margin-top:34px}.copy{line-height:1.3;margin-bottom:24px;flex-shrink:0}.copy p{margin:0 0 18px}.copy p:last-child{margin-bottom:0}.accordion-list{display:flex;flex-direction:column;gap:16px;min-height:0}.accordion{border:1px solid #205c65;border-radius:13px;overflow:hidden;flex-shrink:0}.accordion-toggle{width:100%;display:flex;align-items:center;justify-content:space-between;background:#d3dfe1;border-radius:0;padding:6px 16px;min-height:32px;text-align:left;font-size:16px}.accordion-toggle:hover{background:#c5d7d9}.chevron{width:10px;height:10px;border-right:2px solid;border-bottom:2px solid;transform:rotate(-45deg);margin-right:2px}.accordion-toggle[aria-expanded=true] .chevron{transform:rotate(45deg);margin-top:-5px}.accordion-body{padding:12px 16px 14px;display:flex;flex-direction:column;gap:7px}.accordion-body[hidden]{display:none}.field{display:grid;grid-template-columns:174px 1fr;gap:8px;align-items:stretch}.field label{background:#f6d0b1;border-radius:6px;padding:5px 12px;line-height:1.2;display:flex;align-items:flex-start}.field input,.field textarea{width:100%;border:1px solid transparent;border-radius:6px;background:#eaeaea;padding:5px 9px;min-width:0;font-size:14px;line-height:1.25}.field input{height:28px}.field textarea{resize:none;height:70px;overflow:auto}.field textarea.tall{height:90px}.field input::placeholder,.field textarea::placeholder{color:#777;opacity:1}.field [aria-invalid=true]{border-color:#b53838}.add-indicator{background:#ececec;border:1px dashed #8c8c8c;min-height:32px;padding:5px 14px;margin-top:16px;flex-shrink:0;font-weight:400}.add-indicator strong{font-weight:650}.small-note{font-size:12px;color:#48585b;line-height:1.2;margin:10px 0 0}.footer{position:absolute;left:39px;right:34px;bottom:20px;display:flex;align-items:center;gap:12px}.footer .next{margin-left:auto;min-width:248px}.footer .secondary{background:transparent;border:1px solid #205c65;padding:10px 22px}.footer .resource,.footer .example,.footer .research{min-width:145px}.tooltip{position:absolute;left:5px;bottom:74px;width:205px;background:#205c65;color:white;padding:10px 9px;border-radius:12px;font-size:14px;line-height:1.25;z-index:5;box-shadow:0 2px 4px #0002}.tooltip:after{content:'';position:absolute;bottom:-9px;left:92px;border-left:6px solid transparent;border-right:6px solid transparent;border-top:10px solid #205c65}.tooltip button{display:block;margin:6px 0 0 auto;background:white;border-radius:6px;min-height:25px;padding:3px 9px;font-size:13px}.population .copy{margin-bottom:18px}.population .field{grid-template-columns:251px 1fr;margin-bottom:11px}.population .field textarea{height:88px}.population .field:first-of-type input{height:28px}.mission .field{grid-template-columns:145px 1fr}.mission .field textarea{height:205px}.mission ul{padding-left:20px;margin:14px 0 24px;list-style:none}.mission li{margin:12px 0}.finish-panel .wide{margin-top:32px}.finish-back{display:block;background:transparent;font-size:13px;margin:9px auto 0;padding:4px;min-height:24px}.finish-panel{height:335px}.finish-panel p{margin-bottom:20px}dialog{width:760px;max-width:none;max-height:650px;border:1px solid #205c65;border-radius:14px;padding:24px 28px;font-size:16px;line-height:1.45;color:#141414}dialog::backdrop{background:#173a4055}.dialog-top{display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid #d3dfe1;margin-bottom:16px;padding-bottom:12px}.dialog-top h2{font-size:22px;margin:0}.dialog-top button{min-width:40px;min-height:36px;padding:0;font-size:26px}#popup-content{max-height:490px;overflow:auto;overflow-wrap:anywhere;padding-right:10px}#popup-content h3{font-size:17px;color:#205c65;margin:20px 0 7px}#popup-content p{white-space:pre-wrap}a{color:#205c65}.example-note{background:#fff0e3;padding:12px;border-radius:8px}.research-item{border-bottom:1px solid #ddd;padding-bottom:8px}.research-item strong{font-size:14px}.research-item p{margin:4px 0 12px}
+/* Extra indicators share the same fixed-height slide. */
+.needs.compact .accordion-list{gap:8px}.needs.compact .accordion-body{padding:8px 16px;gap:5px}.needs.compact .field input{height:26px}.needs.compact .field label{padding-top:4px;padding-bottom:4px}.needs.compact .add-indicator{margin-top:10px}.resources-pane .field textarea{height:52px}
+
+/* Fields and labels always stretch together, including wrapped labels. */
+.field{align-items:stretch;min-height:28px}
+.field input,.field textarea,.population .field:first-of-type input,.needs.compact .field input{height:auto;min-height:28px;align-self:stretch}
+.field:has(textarea){min-height:70px}
+.population .field:has(textarea){min-height:88px}
+.mission .field:has(textarea){min-height:205px}
+.resources-pane .field:has(textarea){min-height:52px}
+.population .field textarea,.mission .field textarea,.resources-pane .field textarea{height:auto}
+/* Matching opening/closing durations keep switches smooth without changing the slide size. */
+.accordion-reveal{display:grid;grid-template-rows:0fr;opacity:0;transition:grid-template-rows 190ms ease,opacity 160ms ease}
+.accordion-reveal.is-open{grid-template-rows:1fr;opacity:1}
+.accordion-clip{min-height:0;overflow:hidden}
+.chevron{transition:transform 190ms ease,margin-top 190ms ease}
+button{transition:background-color 140ms ease,opacity 140ms ease}
+@keyframes panel-appear{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
+@keyframes city-reveal{from{opacity:0;transform:translateY(6px) scale(.985)}to{opacity:1;transform:translateY(0) scale(1)}}
+.panel{animation:none}
+.city-name{animation:city-reveal 420ms cubic-bezier(.2,.7,.3,1) 140ms both}
+dialog[open]{animation:panel-appear 160ms ease both}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* Resource callout: palette and button contrast match the activity. */
+.tooltip{left:28px;bottom:78px;width:230px;background:#f6d0b1;color:#49372d;border:1px solid #d6a47c;padding:14px 15px;border-radius:12px;box-shadow:0 3px 10px #173a4026;line-height:1.35}
+.tooltip strong{display:block;margin-bottom:4px;font-weight:700}
+.tooltip strong+br{display:none}
+.tooltip:after{content:none;display:none}
+.tooltip button{display:block;color:#49372d;background:#fff7ed;border:1px solid #d6a47c;border-radius:8px;min-height:34px;min-width:76px;padding:6px 12px;margin:10px 0 0 auto;font-size:14px;line-height:20px;font-weight:700}
+.tooltip button:hover{background:#fce7d3;color:#49372d}
+
+#reset-activity{position:absolute;right:26px;bottom:8px;z-index:6;min-height:24px;padding:3px 10px;border:1px solid #9aadaf;border-radius:6px;background:#fffffff0;color:#40595e;font-size:12px;font-weight:500;line-height:16px}
+#reset-activity:hover{background:#e4ebec}
+
+/* Wider Community Needs labels keep Population measured on one line. */
+.needs .field{grid-template-columns:194px 1fr}
+
+/* Bordered diamond tail, centered over the Resources button. */
+.tooltip:after{content:"";display:block;position:absolute;left:74px;bottom:-7px;width:12px;height:12px;background:#f6d0b1;border:0;border-right:1px solid #d6a47c;border-bottom:1px solid #d6a47c;transform:rotate(45deg);pointer-events:none}
+
+/* Priority labels and answers share a comfortable single-line first row. */
+.population .field{grid-template-columns:286px minmax(0,1fr)}
+.population .field label[for="priority-single-population"]{white-space:nowrap}
+/* Consistent paragraph/list rhythm on the mission slide. */
+.mission .copy{margin-bottom:18px}
+.mission .copy p{margin:0 0 14px}
+.mission .copy ul{list-style:disc;padding-left:22px;margin:6px 0 0;line-height:1.3}
+.mission .copy li{margin:0 0 8px;padding-left:2px}
+.mission .copy li:last-child{margin-bottom:0}
+.finish-actions{display:flex;justify-content:center;align-items:center;gap:12px;margin-top:28px}
+.finish-actions button{min-height:44px;padding:12px 20px}
+.finish-actions .secondary{background:transparent;border:1px solid #205c65;padding:11px 22px}
+.finish-actions .secondary:hover{background:#e4ebec}
+
+/* Research review fits within the dialog; long answers use compact pages. */
+dialog.research-popup{width:760px;max-height:none;overflow:hidden}
+.research-popup #popup-content{max-height:none;overflow:hidden;padding-right:0}
+.research-city{margin:0 0 12px!important;font-size:14px}
+.research-tabs{display:flex;gap:8px;margin-bottom:14px}
+.research-tabs button{flex:1;font-size:14px;padding:8px 10px;min-height:36px;border-radius:8px;background:#ecf0f0}
+.research-tabs button[aria-selected=true]{background:#d3dfe1;box-shadow:inset 0 -2px #205c65}
+#research-entries{display:flex;flex-direction:column;gap:8px}
+.research-accordion{border:1px solid #8daeb3;border-radius:9px;overflow:hidden}
+.research-toggle{display:flex;align-items:center;justify-content:space-between;gap:15px;border-radius:0;width:100%;text-align:left;min-height:34px;padding:7px 12px;font-size:14px;background:#d3dfe1}
+.research-toggle>span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.research-toggle .chevron{flex-shrink:0}
+.research-toggle[aria-expanded=true] .chevron{transform:rotate(45deg);margin-top:-5px}
+.research-answer{height:185px;padding:12px 14px;display:flex;flex-direction:column}
+.research-answer[hidden]{display:none}
+.research-answer>strong{font-size:14px;line-height:18px}
+#popup-content .research-answer-text{white-space:pre-wrap;overflow-wrap:anywhere;font-size:14px;line-height:18px;margin:8px 0;flex:1}
+.research-paging{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:12px}
+.research-paging button{min-height:28px;padding:4px 12px;font-size:12px;border-radius:7px}
+
+/* Reserve room for five research entries plus an expanded answer. */
+dialog.research-popup{height:600px;min-height:600px;max-height:600px}
+.research-popup #popup-content{height:490px;max-height:490px;overflow:hidden}
+dialog.research-popup[open]{display:flex;flex-direction:column}
+.research-popup .dialog-top{flex-shrink:0}
+.research-popup #popup-content{height:auto;max-height:none;flex:1;min-height:0}
+
+/* All fields appear together inside the selected research entry. */
+.research-answer{display:block;height:var(--research-answer-height,185px);padding:10px 12px;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}
+.research-details{margin:0;display:flex;flex-direction:column;gap:5px}
+.research-detail{display:grid;grid-template-columns:155px minmax(0,1fr);gap:8px;align-items:start;font-size:13px;line-height:1.3}
+.research-detail dt{margin:0;padding:5px 7px;border-radius:5px;background:#fae2ce;font-weight:600}
+.research-detail dd{margin:0;padding:5px 0;white-space:pre-wrap;overflow-wrap:anywhere}
+/* Accessibility: semantic headings retain the storyboard's appearance. */
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+#slide-title{font-size:16px;font-weight:400;margin:0}
+.accordion-heading{margin:0;font-size:inherit;line-height:inherit;font-weight:inherit}
+.research-panel{display:flex;flex-direction:column;gap:8px}
+.research-panel[hidden]{display:none}
+.research-reveal{display:grid;grid-template-rows:0fr;opacity:0;transition:grid-template-rows 190ms ease,opacity 160ms ease}
+.research-reveal.is-open{grid-template-rows:1fr;opacity:1}
+.research-clip{min-height:0;overflow:hidden}
+.field input,.field textarea{border-color:#718184}
+.field input::placeholder,.field textarea::placeholder{color:#626262}
+button[aria-disabled=true]{opacity:.55;cursor:not-allowed}
+button:focus-visible,input:focus-visible,textarea:focus-visible,a:focus-visible,[tabindex]:focus-visible{outline:3px solid #205c65;outline-offset:3px;box-shadow:0 0 0 2px #fff}
+.research-answer:focus-visible{outline-offset:-4px}
+.finish-panel{height:335px}
